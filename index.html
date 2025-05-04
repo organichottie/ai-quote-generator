@@ -28,18 +28,29 @@
         </div>
         <br />
       </header>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic for your quote"
-          autofocus
-          required
-          autocomplete="off"
-          class="form-input"
-          id="user-input"
-        />
-        <input type="submit" class="generate-button" />
-      </form>
+      <main>
+        <div class="form-container">
+          <form>
+            <input
+              type="text"
+              placeholder="Enter the topic for your quote"
+              autofocus
+              required
+              autocomplete="off"
+              class="form-input"
+              id="user-input"
+            />
+            <input
+              type="submit"
+              class="generate-button"
+              value="Generate Quote"
+            />
+          </form>
+          <div class="hint">ie: Life, Success, Rock bottom</div>
+        </div>
+
+        <div class="quote-block"></div>
+      </main>
       <script src="src/index.js"></script>
     </div>
   </body>
