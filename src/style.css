@@ -1,3 +1,26 @@
 body {
-  background-color: aquamarine;
+  background-color: #f9f7fe;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #885df1;
+}
+
+.upper-footer {
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 80px auto;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #272044;
+  text-align: center;
 }
